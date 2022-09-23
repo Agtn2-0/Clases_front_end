@@ -1,0 +1,28 @@
+body { background-color: aqua;
+      }
+
+.textotitulo {color: red;
+             font-size: xx-large;
+             font-style: oblique;
+             text-decoration: underline wavy black;
+             text-align: center;
+              }
+
+.textosubtitulo{color: red;
+                font-style: italic;
+                text-decoration: underline;
+              }
+
+.simple{text-decoration: underline;}
+
+.cuadro{ border: 5px solid darkblue;
+        height:auto;
+        width: auto;
+        text-align:center;
+        font-size: xx-large;
+        background-color: yellow;
+        }
+
+img{width: 200px;
+    height: 200px;
+    }
