@@ -1,28 +1,194 @@
-body { background-color: aqua;
-      }
+body {
+  background-color: aqua;
+  background-image: url(../imagenes/municipalidad.jpg);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-attachment: fixed;
+}
 
-.textotitulo {color: red;
-             font-size: xx-large;
-             font-style: oblique;
-             text-decoration: underline wavy black;
-             text-align: center;
-              }
+nav {
+  background-color: black;
+  color: white;
+  position: static;
+  width: 100%;
+}
 
-.textosubtitulo{color: red;
-                font-style: italic;
-                text-decoration: underline;
-              }
+.links {
+  text-align: center;
+}
 
-.simple{text-decoration: underline;}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-.cuadro{ border: 5px solid darkblue;
-        height:auto;
-        width: auto;
-        text-align:center;
-        font-size: xx-large;
-        background-color: yellow;
-        }
+nav ul li {
+  display: inline-block;
+}
 
-img{width: 200px;
-    height: 200px;
-    }
+nav ul li a {
+  color: #b9770e;
+  text-decoration: none;
+  font-family: 'Courier New';
+  font-size: 120%;
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+header {
+  width: 75%;
+  /*background-color: red;*/
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+}
+
+section {
+  /*background-color: white;*/
+  width: 75%;
+  height: 300px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  /*  background-color: white;*/
+}
+
+aside {
+  width: 150px;
+  height: auto;
+  float: right;
+  color: white;
+}
+
+.icono {
+  position: fixed;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footerarriba {
+  height: 100%;
+}
+
+.textotitulo {
+  color: red;
+  font-size: xx-large;
+  font-style: oblique;
+  text-align: center;
+}
+
+.alia {
+  text-align: center;
+  color: white;
+}
+
+.centroo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.textosubtitulo {
+  color: #641e16;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+}
+
+.simple1 {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.simple2 {
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.primerfoto {
+  display: inline-block;
+  position: relative;
+}
+
+.segfoto {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.cuadro {
+  border: 5px solid darkblue;
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-size: xx-large;
+  background-color: yellow;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.cuadronav {
+  border: 5px solid darkblue;
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-size: medium;
+  background-color: yellow;
+}
+
+.abajo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.primerlista {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.seglista {
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+}
+
+.ert {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.misredes {
+  width: 75px;
+  height: 75px;
+}
