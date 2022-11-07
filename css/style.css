@@ -1,5 +1,5 @@
 body {
-  background-color: aqua;
+  background-color: rgb(35, 120, 231);
   background-image: url(../imagenes/municipalidad.jpg);
   background-repeat: no-repeat;
   background-size: auto auto;
@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
   color: #b9770e;
   text-decoration: none;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   font-size: 120%;
   display: block;
   padding-left: 40px;
@@ -41,11 +41,15 @@ nav ul li a {
 
 header {
   width: 75%;
-  /*background-color: red;*/
+  height: 25%;
+  /* background-color: red; */
   position: relative;
   display: block;
   margin: 0 auto;
   padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 section {
@@ -88,7 +92,8 @@ aside {
   color: red;
   font-size: xx-large;
   font-style: oblique;
-  text-align: center;
+  vertical-align: middle;
+  /* text-align: center; */
 }
 
 .alia {
@@ -191,4 +196,66 @@ img {
 .misredes {
   width: 75px;
   height: 75px;
+}
+
+footer {
+  clear: both;
+}
+
+/* footer ul { */
+.pepe {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(10, 10, 10); */
+}
+
+/* footer ul li { */
+.pepe li {
+  display: inline-block;
+}
+
+/* footer ul li a { */
+.pepe li a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+}
+
+img.misredes {
+  width: 70px;
+  height: 70px;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+}
+
+.imagenlogo {
+  width: 100%;
+  height: 100%;
+}
+
+.final {
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  flex-wrap: wrap;
 }
